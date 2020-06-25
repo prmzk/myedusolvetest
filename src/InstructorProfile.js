@@ -1,5 +1,4 @@
 import React from 'react';
-import { Row, Col } from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './App.css';
 import course from './content.json'

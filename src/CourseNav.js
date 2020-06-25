@@ -6,7 +6,6 @@ import course from './content.json'
 
 import CourseContent from './CourseContent'
 
-
 function CourseNav(){
     return (
         <div>
