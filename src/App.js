@@ -15,10 +15,10 @@ function App() {
     <div>
       <NavbarHome/>
       <Row>
-        <Col md={4} xs={12} className="class-content">
+        <Col md={{span: 4, order: 'first'}} xs={{span: 12, order: 'last'}} className="class-content">
           <CourseNav/>        
         </Col>
-        <Col md={8} xs={12} className="class-content-video">
+        <Col md={{span: 8, order: 'last'}} xs={{span: 12, order: 'first'}} className="class-content-video">
           <CourseVideo/>
         </Col>
       </Row>

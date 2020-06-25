@@ -6,7 +6,7 @@ import course from './content.json'
 
 function InstructorProfile(){
     return (
-        <div className="instructor mr-5 ml-3 mt-4 shadow-sm">
+        <div className="instructor mt-4 shadow-sm">
             <p className="course-headers mb-2" style={{fontSize: '24px'}}>Instruktur</p>
             <div className="d-flex ml-4 align-items-center">
                 <img src={'/instructor.png'} className="mr-3"></img>

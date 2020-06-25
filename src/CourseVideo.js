@@ -7,8 +7,8 @@ import InstructorProfile from './InstructorProfile'
 
 function CourseVideo(){
     return (
-        <div>
-            <img src={'/video.png'} className="col-md-12 pr-5"></img>
+        <div className="video-container">
+            <img src={'/video.png'} className="video-img"></img>
             <InstructorProfile/>
         </div>
     )
