@@ -8,6 +8,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import NavbarHome from './Navbar'
 import CourseNav from './CourseNav'
 import CourseVideo from './CourseVideo'
+import Footer from './Footer'
 
 function App() {
   return (
@@ -21,14 +22,7 @@ function App() {
           <CourseVideo/>
         </Col>
       </Row>
-      {/* <Row style={{backgroundColor: "black", padding: '40px'}}>
-        <Col md={{span: 4, order: 'first'}} xs={{span: 12, order: 'last'}} style={{backgroundColor: "red", height: '60vh'}}>
-          1
-        </Col>
-        <Col md={{span: 8, order: 'last'}} xs={{span: 12, order: 'first'}} style={{backgroundColor: "blue", height: '60vh'}}>
-          2
-        </Col>
-      </Row> */}
+      <Footer/>
     </div>
   );
 }
