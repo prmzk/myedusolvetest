@@ -11,6 +11,10 @@
   padding: 16px 0px 16px 40px!important;
 }
 
+.class-content-video {
+  padding: 16px 0px 16px 0px!important;
+}
+
 .course-name {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
@@ -50,6 +54,14 @@
   background-color: #EEFAFF;
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
+}
+
+.instructor {
+  padding: 20px;
+  padding-top: 10px;
+  border: 1.5px solid rgb(235, 233, 233);
+  border-radius: 6px;
+  cursor: pointer;
 }
 
 @media (prefers-reduced-motion: no-preference) {

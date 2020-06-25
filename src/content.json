@@ -21,5 +21,9 @@
             "name": "Form & Space",
             "time": "05:00"
         }
+    },
+    "instructor": {
+        "name": "Sharon Joetama",
+        "desc": "Seorang instruktur untuk kelas Desain Grafis untuk pemula."
     }
 }
