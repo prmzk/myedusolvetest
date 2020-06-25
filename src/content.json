@@ -1,0 +1,25 @@
+{
+    "name": "Desain Grafis Untuk Pemula",
+    "content": [
+        {
+            "name": "Pengertian Mengenai Komposisi"
+        },
+        {
+            "name": "Penggunaan Warna"
+        },
+        {
+            "name": "Assignment"
+        }
+    ],
+    "selectedContent": {
+        "name": "Konsep Dasar Desain Grafis",
+        "subcontent": {
+            "name": "Garis",
+            "time": "02:30"
+        },
+        "selectedSubcontent": {
+            "name": "Form & Space",
+            "time": "05:00"
+        }
+    }
+}

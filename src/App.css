@@ -7,6 +7,51 @@
   pointer-events: none;
 }
 
+.class-content {
+  padding: 16px 0px 16px 40px!important;
+}
+
+.course-name {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.course-headers {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  padding: 0;
+  margin: 0;
+}
+
+.course-headers-expand {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  padding: 0;
+  margin: 0;
+}
+
+.course-text {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  padding: 0;
+  margin: 0;
+}
+
+.course-content-expand {
+  border: 1.5px solid rgb(235, 233, 233);
+  padding: 10px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.course-content-expand-selected {
+  background-color: #EEFAFF;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
