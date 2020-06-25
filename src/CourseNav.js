@@ -27,11 +27,11 @@ function CourseNav(){
                 <p className="course-text mr-auto">{course.selectedContent.subcontent.name}</p>
                 <p className="course-text">{course.selectedContent.subcontent.time}</p>
             </div>
-            <div className='d-flex justify-content-center align-items-center course-content-expand mr-4 mb-4'
-            style={{borderTopWidth: 0, borderTopRightRadius: '0', borderTopLeftRadius: '0'}}>
-                <img src={'/mdi_check_circle.png'} className="mr-3"></img> 
-                <p className="course-text mr-auto">{course.selectedContent.subcontent.name}</p>
-                <p className="course-text">{course.selectedContent.subcontent.time}</p> 
+            <div className='d-flex justify-content-center align-items-center course-content-expand course-content-expand-selected mr-4 mb-4'
+            style={{borderTopWidth: 0, borderTopRightRadius: '0', borderTopLeftRadius: '0', borderLeft: "3px solid #FF0F51"}}>
+                <img src={'/rectangle.png'} className="mr-3"></img> 
+                <p className="course-text mr-auto">{course.selectedContent.selectedSubcontent.name}</p>
+                <p className="course-text">{course.selectedContent.selectedSubcontent.time}</p> 
             </div>
 
             {course.content.map(content => (
