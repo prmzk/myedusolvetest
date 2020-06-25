@@ -1,0 +1,26 @@
+.AppLogo {
+    width: 392px;
+    margin-right: 36px;
+}
+
+.nav-pad {
+    padding-left: 66px;
+}
+
+.profile-name {
+    margin-right: 84px;
+}
+
+@media only screen and (max-width: 600px) {
+    .AppLogo {
+        width: 172px;
+    }
+
+    .nav-pad {
+        padding-left: 26px;
+    }
+
+    .dropdown-nav {
+        margin-top: 20px;
+    }
+}
